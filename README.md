@@ -54,7 +54,7 @@ The following preprocessing steps were performed:
 - Focus on expanding profitable Technology products.
 
 ## Dashboard Preview
-_Add dashboard screenshot here_
+<img width="1606" height="928" alt="SuperStore_Dasboard" src="https://github.com/user-attachments/assets/9fa5c83a-7552-4866-8206-371a732a76db" />
 
 ## Repository Structure
 ```text
