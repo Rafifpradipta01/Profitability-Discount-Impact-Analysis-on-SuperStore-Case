@@ -1,20 +1,22 @@
-# Data-analyst-portfolio-mini-project
-End-to-end profitability analysis of Superstore sales data using Python and Tableau to uncover business insights and optimize profit performance.
-
 # Superstore Profitability Analysis
 
+Analyzed the impact of discount strategies on profitability using the Superstore dataset to identify loss-making products, high-risk discount levels, and opportunities to improve business performance.
+
 ## Project Overview
+
 This project analyzes Superstore sales data to evaluate business profitability, identify loss-making products, and assess the impact of discount strategies on company performance.
 
 Using Python for data preparation and Tableau for visualization, the analysis aims to uncover key profit drivers and provide actionable business recommendations to improve profitability.
 
 ## Business Questions
+
 1. How do region, segment, category, and sub-category contribute to profitability?
 2. How do discount levels affect profit performance?
 3. Which products contribute most to company losses?
-4. What business actions can be taken to improve overall profitability?
+4. What business actions can improve overall profitability?
 
 ## Tools & Technologies
+
 - Python
 - Pandas
 - NumPy
@@ -22,13 +24,15 @@ Using Python for data preparation and Tableau for visualization, the analysis ai
 - GitHub
 
 ## Dataset Information
+
 - Dataset: Sample Superstore
-- Source: Kaggle / Training Dataset
 - Total Records: 9,994
 - Total Features: 21
 
 ## Data Preparation
+
 The following preprocessing steps were performed:
+
 - Missing value validation
 - Duplicate checking
 - Data type conversion
@@ -38,25 +42,28 @@ The following preprocessing steps were performed:
   - Discount Category
 
 ## Key Findings
-- The company generated **$286.4K profit** from **$2.30M sales**, resulting in a **12% profit margin**.
-- **26.31% of transactions** still resulted in losses.
-- **West Region** generated the highest profit and can serve as a benchmark for other regions.
-- **Technology** was the most profitable category.
-- **Furniture**, particularly **Tables** and **Bookcases**, consistently generated losses.
-- Discounts above **30%** were strongly associated with negative profitability.
-- Several high-sales products generated losses due to excessive discounting.
+
+- The company generated $286.4K profit from $2.30M sales, achieving a 12% profit margin.
+- 26.31% of transactions (1,318 orders) resulted in losses.
+- The West Region generated the highest profit contribution.
+- Technology was the most profitable category.
+- Tables (-$17.7K) and Bookcases (-$3.5K) were the primary loss-making sub-categories.
+- Discounts above 30% were strongly associated with negative profits.
 
 ## Business Recommendations
-- Limit discount policies to a maximum of 30%.
-- Review pricing strategies for Furniture products.
-- Investigate loss-making products with high sales volume.
-- Replicate successful sales strategies from the West Region.
-- Focus on expanding profitable Technology products.
+
+- Cap discounts at 30% to reduce loss-making transactions.
+- Review pricing strategies for Tables and Bookcases.
+- Prioritize promotions for profitable Technology products.
+- Investigate products with high sales but negative profits.
+- Apply successful sales strategies from the West Region to lower-performing regions.
 
 ## Dashboard Preview
-<img width="1606" height="928" alt="SuperStore_Dasboard" src="https://github.com/user-attachments/assets/9fa5c83a-7552-4866-8206-371a732a76db" />
+
+<img width="1606" height="928" alt="SuperStore_Dasboard" src="https://github.com/user-attachments/assets/4794f63f-2547-48d1-9c71-2d12c04414a8" />
 
 ## Repository Structure
+
 ```text
 superstore-profitability-analysis
 │
@@ -65,7 +72,9 @@ superstore-profitability-analysis
 ├── dashboard/
 ├── output/
 └── report/
-Author
+```
+
+## Author
 
 Rafif Pradipta Bagaskara
 
